@@ -15,13 +15,13 @@ git clone https://github.com/tensorflow/models.git
 
 #find the corresponding tensorflow config file in configs/tf2 folder (https://github.com/tensorflow/models/tree/master/research/object_detection/configs/tf2)
 #edit the config 
-// -Change the number of classes to number of objects you want to detect (4 in my case)
-// -Change fine_tune_checkpoint to the path of the model.ckpt file.
-// -Change fine_tune_checkpoint_type to detection
-// -Change input_path of the train_input_reader to the path of the train.record file:
-// -Change input_path of the eval_input_reader to the path of the test.record file:
-// -Change label_map_path to the path of the label map:
-// -Change batch_size to a number appropriate for your hardware, like 4, 8, or 16
+-Change the number of classes to number of objects you want to detect (4 in my case)
+-Change fine_tune_checkpoint to the path of the model.ckpt file.
+-Change fine_tune_checkpoint_type to detection
+-Change input_path of the train_input_reader to the path of the train.record file:
+-Change input_path of the eval_input_reader to the path of the test.record file:
+-Change label_map_path to the path of the label map:
+-Change batch_size to a number appropriate for your hardware, like 4, 8, or 16
 
 #navigate to models folder
 cd models/research
