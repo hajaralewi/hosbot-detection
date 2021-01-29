@@ -1,0 +1,19 @@
+item {
+    id: 1
+    name: 'facing away'
+}
+
+item {
+    id: 2
+    name: 'facing camera'
+}
+
+item {
+    id: 3
+    name: 'facing down'
+}
+
+item {
+    id: 4
+    name: 'facing up'
+}
