@@ -5,7 +5,7 @@ Laying Down Position Detection using TensorFlow (EfficientDet01)
 #conda environment
 activate ob
 
-# initialize anaconda environment
+#initialize anaconda environment
 
 
 #nav to furniture-detection folder
